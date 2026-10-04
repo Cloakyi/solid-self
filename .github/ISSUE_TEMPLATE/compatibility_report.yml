@@ -1,0 +1,50 @@
+name: Compatibility report
+description: Solid Self doesn't work together with another mod, shader or resource pack
+title: "[Compat] "
+labels: ["compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please test with **only** Fabric API, Iris, Sodium, Solid Self and the mod in question first, so we know which mod causes the problem.
+  - type: input
+    id: other-mod
+    attributes:
+      label: Affected mod, shader or resource pack
+      description: Name, version and download link
+      placeholder: "Example Mod 2.0.1 (https://modrinth.com/mod/...)"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What goes wrong?
+    validations:
+      required: true
+  - type: dropdown
+    id: without
+    attributes:
+      label: Does the problem go away without Solid Self?
+      options:
+        - "Yes"
+        - "No"
+        - I haven't tested it
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Solid Self, Minecraft, Iris and Sodium
+      placeholder: "Solid Self 1.1.0, Minecraft 26.2, Iris 1.11.4, Sodium 0.9.2"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log file
+      description: Upload `logs/latest.log` or paste a link to it.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or video

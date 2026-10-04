@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and help on Discord
+    url: https://discord.gg/suwEMTC9b7
+    about: Ask questions and get help from the community.
+  - name: Contact Cloaki
+    url: https://cloaki.de
+    about: Website with all contact options, including support@cloaki.de.
+  - name: Wiki
+    url: https://github.com/Cloakyi/solid-self/wiki
+    about: Installation, usage, compatibility and troubleshooting.

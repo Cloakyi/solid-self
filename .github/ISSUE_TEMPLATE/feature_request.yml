@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an idea for Solid Self
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Solid Self is intentionally small and focused on one rendering fix. Ideas that keep it that way have the best chance.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Which problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Your idea
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered

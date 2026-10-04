@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "solidself",
-  "version": "1.1.0",
+  "version": "${version}",
   "name": "Solid Self",
   "description": "Renders players as opaque instead of translucent so shader world outlines (Iris) include them and they no longer look see-through. Toggle it in-game with a keybind.",
   "authors": ["Cloakiy"],
