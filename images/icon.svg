@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" gradientUnits="userSpaceOnUse" x1="0" y1="1024" x2="1024" y2="0">
+      <stop offset="0" stop-color="#000000"/>
+      <stop offset="0.3284" stop-color="#000000"/>
+      <stop offset="0.3284" stop-color="#101010"/>
+      <stop offset="0.3294" stop-color="#141414"/>
+      <stop offset="0.3636" stop-color="#1F1F1F"/>
+      <stop offset="0.6940" stop-color="#1F1F1F"/>
+      <stop offset="0.6950" stop-color="#232323"/>
+      <stop offset="0.7273" stop-color="#2A2A2A"/>
+      <stop offset="1" stop-color="#2A2A2A"/>
+    </linearGradient>
+    <clipPath id="topLeft"><polygon points="0,0 1024,0 0,1024"/></clipPath>
+    <clipPath id="bottomRight"><polygon points="1024,0 1024,1024 0,1024"/></clipPath>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- top left: dashed avatar outline -->
+  <g clip-path="url(#topLeft)" stroke="#A6A6A6" fill="none" stroke-linecap="butt">
+    <g stroke-width="14">
+      <line x1="412" y1="312" x2="444" y2="312"/>
+      <line x1="468" y1="312" x2="500" y2="312"/>
+      <line x1="524" y1="312" x2="556" y2="312"/>
+      <line x1="580" y1="312" x2="612" y2="312"/>
+      <line x1="412" y1="312" x2="412" y2="342"/>
+      <line x1="412" y1="366" x2="412" y2="396"/>
+      <line x1="412" y1="420" x2="412" y2="450"/>
+      <line x1="412" y1="474" x2="412" y2="504"/>
+      <line x1="412" y1="528" x2="412" y2="558"/>
+      <line x1="412" y1="582" x2="412" y2="612"/>
+      <line x1="612" y1="312" x2="612" y2="342"/>
+      <line x1="612" y1="366" x2="612" y2="396"/>
+      <line x1="612" y1="420" x2="612" y2="450"/>
+      <line x1="612" y1="474" x2="612" y2="504"/>
+      <line x1="612" y1="528" x2="612" y2="558"/>
+      <line x1="612" y1="582" x2="612" y2="612"/>
+      <line x1="412" y1="612" x2="444" y2="612"/>
+      <line x1="468" y1="612" x2="500" y2="612"/>
+      <line x1="524" y1="612" x2="556" y2="612"/>
+      <line x1="580" y1="612" x2="612" y2="612"/>
+      <line x1="512" y1="612" x2="512" y2="642"/>
+      <line x1="512" y1="666" x2="512" y2="696"/>
+      <line x1="512" y1="720" x2="512" y2="750"/>
+      <line x1="512" y1="774" x2="512" y2="804"/>
+      <line x1="512" y1="828" x2="512" y2="858"/>
+      <line x1="512" y1="882" x2="512" y2="912"/>
+    </g>
+    <g stroke-width="26">
+      <line x1="399" y1="112" x2="454.67" y2="112"/>
+      <line x1="490.67" y1="112" x2="533.33" y2="112"/>
+      <line x1="569.33" y1="112" x2="625" y2="112"/>
+      <line x1="612" y1="99" x2="612" y2="154.67"/>
+      <line x1="612" y1="190.67" x2="612" y2="233.33"/>
+      <line x1="612" y1="269.33" x2="612" y2="325"/>
+      <line x1="599" y1="312" x2="644" y2="312"/>
+      <line x1="680" y1="312" x2="725" y2="312"/>
+      <line x1="712" y1="299" x2="712" y2="360"/>
+      <line x1="712" y1="396" x2="712" y2="444"/>
+      <line x1="712" y1="480" x2="712" y2="528"/>
+      <line x1="712" y1="564" x2="712" y2="625"/>
+      <line x1="725" y1="612" x2="680" y2="612"/>
+      <line x1="644" y1="612" x2="599" y2="612"/>
+      <line x1="612" y1="599" x2="612" y2="660"/>
+      <line x1="612" y1="696" x2="612" y2="744"/>
+      <line x1="612" y1="780" x2="612" y2="828"/>
+      <line x1="612" y1="864" x2="612" y2="925"/>
+      <line x1="625" y1="912" x2="569.33" y2="912"/>
+      <line x1="533.33" y1="912" x2="490.67" y2="912"/>
+      <line x1="454.67" y1="912" x2="399" y2="912"/>
+      <line x1="412" y1="925" x2="412" y2="864"/>
+      <line x1="412" y1="828" x2="412" y2="780"/>
+      <line x1="412" y1="744" x2="412" y2="696"/>
+      <line x1="412" y1="660" x2="412" y2="599"/>
+      <line x1="425" y1="612" x2="380" y2="612"/>
+      <line x1="344" y1="612" x2="299" y2="612"/>
+      <line x1="312" y1="625" x2="312" y2="564"/>
+      <line x1="312" y1="528" x2="312" y2="480"/>
+      <line x1="312" y1="444" x2="312" y2="396"/>
+      <line x1="312" y1="360" x2="312" y2="299"/>
+      <line x1="299" y1="312" x2="344" y2="312"/>
+      <line x1="380" y1="312" x2="425" y2="312"/>
+      <line x1="412" y1="325" x2="412" y2="269.33"/>
+      <line x1="412" y1="233.33" x2="412" y2="190.67"/>
+      <line x1="412" y1="154.67" x2="412" y2="99.00"/>
+    </g>
+  </g>
+  <!-- bottom right: solid avatar outline -->
+  <g clip-path="url(#bottomRight)" stroke="#FFFFFF" fill="none" stroke-linejoin="miter">
+    <path d="M412 312H612M412 312V612M612 312V612M412 612H612M512 612V912" stroke-width="14"/>
+    <path d="M412 112H612V312H712V612H612V912H412V612H312V312H412Z" stroke-width="26" stroke-linecap="square"/>
+  </g>
+  <!-- diagonal divider -->
+  <line x1="-8" y1="1032" x2="1032" y2="-8" stroke="#FFFFFF" stroke-width="20"/>
+</svg>
