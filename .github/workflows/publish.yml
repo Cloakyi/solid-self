@@ -1,12 +1,11 @@
-name: Publish package
+name: Publish release
 
 on:
   release:
     types: [published]
-  workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   packages: write
 
 jobs:
@@ -19,6 +18,12 @@ jobs:
           distribution: temurin
           java-version: 25
       - uses: gradle/actions/setup-gradle@v4
+      - name: Build
+        run: ./gradlew build
+      - name: Attach jar to the release
+        run: gh release upload "${{ github.event.release.tag_name }}" $(ls build/libs/*.jar | grep -v -- '-sources') --clobber
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to GitHub Packages
         run: ./gradlew publish
         env:
