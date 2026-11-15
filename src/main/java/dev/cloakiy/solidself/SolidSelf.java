@@ -36,7 +36,7 @@ public class SolidSelf implements ClientModInitializer {
         KeyMapping.Category category = KeyMapping.Category.register(Identifier.fromNamespaceAndPath(MOD_ID, MOD_ID));
         // Unbound by default; players pick their own key in Options > Controls > Key Binds.
         KeyMapping toggleKey = KeyMappingHelper.registerKeyMapping(
-                new KeyMapping("key.solidself.toggle", InputConstants.Type.KEYSYM, InputConstants.UNKNOWN.getValue(), category));
+                new KeyMapping("key.solidself.toggle", InputConstants.UNKNOWN.getValue(), category));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (toggleKey.consumeClick()) {

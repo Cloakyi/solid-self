@@ -3,6 +3,14 @@
 All notable changes to Solid Self are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and the project uses [Semantic Versioning](https://semver.org/).
 
+## [1.2.1] - 2026-11-15
+
+### Added
+- Support for Minecraft 26.3 (the same file works on 26.2 and 26.3)
+
+### Fixed
+- The game no longer crashes on startup with Minecraft 26.3, where the keybind input types were renamed
+
 ## [1.2.0] - 2026-10-14
 
 ### Fixed
@@ -24,5 +32,6 @@ First public release.
 - Requires Fabric API
 - Semi-transparent skin pixels are shown either fully visible or fully invisible
 
+[1.2.1]: https://github.com/Cloakyi/solid-self/releases/tag/v1.2.1
 [1.2.0]: https://github.com/Cloakyi/solid-self/releases/tag/v1.2.0
 [1.1.0]: https://github.com/Cloakyi/solid-self/releases/tag/v1.1.0

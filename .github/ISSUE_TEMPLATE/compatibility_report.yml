@@ -36,7 +36,7 @@ body:
     attributes:
       label: Versions
       description: Solid Self, Minecraft, Iris and Sodium
-      placeholder: "Solid Self 1.1.0, Minecraft 26.2, Iris 1.11.4, Sodium 0.9.2"
+      placeholder: "Solid Self 1.2.1, Minecraft 26.3, Iris 1.11.4, Sodium 0.9.2"
     validations:
       required: true
   - type: textarea

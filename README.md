@@ -7,7 +7,7 @@
 [![Modrinth](https://img.shields.io/badge/Modrinth-Download-1bd96a?style=flat-square&logo=modrinth&logoColor=white)](https://modrinth.com/mod/solid-self)
 [![Release](https://img.shields.io/github/v/release/Cloakyi/solid-self?style=flat-square&color=555&label=Release)](https://github.com/Cloakyi/solid-self/releases/latest)
 [![Build](https://img.shields.io/github/actions/workflow/status/Cloakyi/solid-self/build.yml?branch=main&style=flat-square&label=Build)](https://github.com/Cloakyi/solid-self/actions/workflows/build.yml)
-![Minecraft](https://img.shields.io/badge/Minecraft-26.2-555?style=flat-square)
+![Minecraft](https://img.shields.io/badge/Minecraft-26.2%20%7C%2026.3-555?style=flat-square)
 ![Fabric](https://img.shields.io/badge/Loader-Fabric-dbd0b4?style=flat-square)
 [![License](https://img.shields.io/badge/License-MIT-555?style=flat-square)](LICENSE)
 
@@ -43,7 +43,7 @@ Invisibility, spectator mode, the first-person hand and all other entities stay 
 
 ## <img src="https://cdn.modrinth.com/data/cached_images/9d0bf07626db022a6789547fbc2b9f52b9dfb055.png" width="24" alt="Pixel chest icon"> Installation
 
-1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 26.2
+1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 26.2 or 26.3
 2. Put [Fabric API](https://modrinth.com/mod/fabric-api) and Solid Self into your `mods` folder
 3. Start the game
 

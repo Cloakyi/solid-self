@@ -42,7 +42,7 @@ body:
     id: mc-version
     attributes:
       label: Minecraft version
-      placeholder: "26.2"
+      placeholder: "26.3"
     validations:
       required: true
   - type: input
